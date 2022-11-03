@@ -1,0 +1,15 @@
+@baseURL =  http://localhost:1337/api
+
+GET {{baseURL}}/profile-infos
+
+GET {{baseURL}}/experiences
+
+
+# POST {{baseURL}}/
+# Content-Type: application/json
+
+# {
+#     "username": "graham092",
+#     "password": "@88sQ9JkdALNDk9"
+# }
+

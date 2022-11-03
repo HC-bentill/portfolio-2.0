@@ -42,7 +42,7 @@ export default function Header({}: Props) {
           style={iconStyle}
         />
         <SocialIcon
-          url="linkedin.com/in/henry-bentil/"
+          url="https://www.linkedin.com/in/henry-bentil"
           fgColor="gray"
           bgColor="transparent"
           style={iconStyle}
