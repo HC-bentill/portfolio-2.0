@@ -21,7 +21,7 @@ function Projects({}: Props) {
                   <span className="underline decoration-[#00f2ea]/50">
                     Case Study {index + 1} of {ProjectsList.length}:
                   </span>{" "}
-                  <a href={data?.link} target="_blank">{data?.projectTitle}</a>
+                  <a href={data?.link}>{data?.projectTitle}</a>
                 </h4>
 
                 <p className="text-xs md:text-sm text-center md:text-left">{data?.description}</p>
