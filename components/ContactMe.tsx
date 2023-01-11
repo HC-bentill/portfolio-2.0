@@ -34,22 +34,22 @@ function ContactMe({}: Props) {
       <div className="flex flex-col space-y-5">
         <h4 className="text-1xl font-semibold text-center md:text-3xl">
           I have got just what you need.{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
+          <span className="decoration-[#00f2ea]/50 underline">Lets Talk.</span>
         </h4>
 
         <div className="space-y-3">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-6 w-6 animate-pulse" />
+            <PhoneIcon className="text-[#00f2ea] h-6 w-6 animate-pulse" />
             <p className="text-s md:text-2xl">+233546283768</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-6 w-6 animate-pulse" />
+            <EnvelopeIcon className="text-[#00f2ea] h-6 w-6 animate-pulse" />
             <p className="text-s md:text-2xl">henrybentil@88gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-6 w-6 animate-pulse" />
+            <MapPinIcon className="text-[#00f2ea] h-6 w-6 animate-pulse" />
             <p className="text-s md:text-2xl">Josepace Lane Weija</p>
           </div>
 
@@ -86,7 +86,7 @@ function ContactMe({}: Props) {
               <div className="grid place-items-center">
                 <button
                   type="submit"
-                  className="bg-[#F7AB0A] py-3 w-full rounded-md text-black font-bold text-xs"
+                  className="bg-[#00f2ea] py-3 w-full rounded-md text-black font-bold text-xs"
                 >
                   Submit
                 </button>

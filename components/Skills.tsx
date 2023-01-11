@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Skill from './Skill';
+import { skillsList } from '../assets/Assets';
 
 type Props = {}
 
@@ -17,18 +18,9 @@ export default function Skills({}: Props) {
     </h3>
 
     <div className='grid grid-cols-3 gap-5'>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
-        <Skill/>
+      {skillsList && skillsList.map((item,index)=>(
+        <Skill image={item.src} key={index}/>
+      ))}
     </div>
 
   </motion.div>

@@ -38,7 +38,7 @@ export default function Hero({}: Props) {
           data-aos="fade-left"
         >
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#F7AB0A" />
+          <Cursor cursorColor="#00f2ea" />
         </h1>
 
         <div className="pt-5" data-aos="fade-up">

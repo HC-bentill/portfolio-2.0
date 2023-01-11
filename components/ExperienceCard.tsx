@@ -1,9 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { IWorkExperience } from "../data";
 
-type Props = {};
+type Props = {
+  experience: IWorkExperience
+};
 
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard({experience}: Props) {
   return (
     <article className="flex flex-col items-center flex-shrink-0 rounded-l space-y-7 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 md:hover:opacity-100 md:opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
@@ -15,23 +18,15 @@ export default function ExperienceCard({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="w-20 h-20 md:w-20 md:h-20 rounded-full object-contain object-center"
-        src="https://drive.google.com/uc?export=view&id=1WSRDLmx5YYjFaOcMMgDt7r9EA0ri6eMn"
+        src={experience?.image}
         alt="s"
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-[20px] text-center font-light md:text-1xl">Front End Engineer</h4>
-        <p className="mt-1 text-2xl font-bold text-center">Meetenant</p>
+        <h4 className="text-[20px] text-center font-light md:text-1xl">{experience?.position}</h4>
+        <p className="mt-1 text-2xl font-bold text-center">{experience?.workplace}</p>
 
-        <p className="py-5 text-gray-300 uppercase font-bold text-[12px] text-center">Started work.. -Ended...</p>
-
-        {/* <ul className="ml-5 space-y-2 md:space-y-4 text-[12px] md:text-sm list-disc">
-          <li>Summary points Summary</li>
-          <li>Summary points Summary</li>
-          <li>Summary points Summary</li>
-          <li>Summary points Summary</li>
-          <li>Summary points Summary</li>
-        </ul> */}
+        <p className="py-5 text-gray-300 uppercase font-bold text-[12px] text-center">{`${experience?.period.started} - ${experience?.IscurrentPlace ? "Present" : experience?.period.ended}`}</p>
       </div>
     </article>
   );

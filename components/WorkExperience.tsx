@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import { workExperienceList } from "../data";
 
 type Props = {};
 
@@ -17,11 +18,10 @@ export default function WorkExperience({}: Props) {
       </h3>
       <small className="absolute top-[140px] text-gray-400">{"<<"} slide to reveal other experiences {">>"}</small>
 
-      <div className="flex w-full mt-10 md:mt-8 p-10 space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+      <div className="flex w-full mt-10 md:mt-8 p-10 space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00f2ea]/80">
+        {workExperienceList && workExperienceList.map((item, index)=>(
+          <ExperienceCard experience={item} key={index}/>
+        ))}
       </div>
       
     </motion.div>
