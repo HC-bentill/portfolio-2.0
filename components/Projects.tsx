@@ -15,7 +15,7 @@ function Projects({}: Props) {
         {ProjectsList &&
           ProjectsList.map((data, index) => (
             <div key={index} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-              <img src={data.image} className="w-100 h-56 md:w-68 md:h-68" />
+              <img src={data.image} className="w-100 h-100 md:w-100 md:h-56" />
               <div className="space-y-5 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-sm font-semibold text-center md:text-xl ">
                   <span className="underline decoration-[#00f2ea]/50">
