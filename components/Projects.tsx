@@ -26,7 +26,7 @@ function Projects({}: Props) {
                 </h4>
                 <div className="text-center">
                   Click to visit 👉🏼{" "}
-                  <a target="_blank" href={data?.link}>
+                  <a target="_blank" rel="noreferrer" href={data?.link}>
                     {data?.link}
                   </a>
                 </div>
