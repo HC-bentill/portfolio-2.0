@@ -14,7 +14,7 @@ export interface IWorkExperience {
 export interface IProjects {
   image: string;
   projectTitle: string;
-  link:string;
+  link: string;
   description: string;
 }
 
@@ -86,7 +86,7 @@ export const ProjectsList: IProjects[] = [
     image: Images.Gdrsa.src,
     link: "https://www.ghanadriverawards.org/",
     projectTitle: "Ghana Drivers & Road Safety Awards",
-    description: "The Ghana Driver and Road Safety Awards is a commitment to reducing road accidents through training and rewards. The purpose of the app was to quiz drivers on road safety rules and regulations.he best performing driver will be crowned the Overall Best Driver for the year. The winner will get up to Ghc50,000 financial support for his/her road safety project ",
+    description: "The Ghana Driver and Road Safety Awards is a commitment to reducing road accidents through training and rewards. The purpose of the app was to quiz drivers on road safety rules and regulations. The best performing driver will be crowned the Overall Best Driver for the year. The winner will get up to Ghc50,000 financial support for his/her road safety project ",
   },
   {
     image: Images.Discord.src,
@@ -99,5 +99,23 @@ export const ProjectsList: IProjects[] = [
     link: "https://hc-bentill.github.io/netflix-clone/",
     projectTitle: "Netflix Clone",
     description: "Netflix Clone built with React, Firebase,and the Movie database API which displays latest movies from a database and groups them according to categories",
+  },
+  {
+    image: Images.Deksol_platform.src,
+    link: "https://anma.deksolconsult.com/anma_erms/",
+    projectTitle: "Deksol Revenue Management Platform",
+    description: "This platform is built with PHP, Codeigniter 3 and MySQL. Currently used by 6 district assemblies i.e Ayawaso, Ketu North, GA North, Ellembelle, Akuapem North and Ga South district assemblies. The platform aids in revenue management and tracking of agents progess on the field.",
+  },
+  {
+    image: Images.Eportal.src,
+    link: "https://esimrequest.mtn.com.gh/",
+    projectTitle: "Esim Request Portal MTN GH",
+    description: "The purpose of this platform is to allow users to request for Electronic sim cards for Iphones. This Platform was built using React, UIKit, ASP.NET, Postgres and Monogodb. 40,000 requests were placed by users in the first hour of its deployment to production",
+  },
+  {
+    image: Images.Joblek.src,
+    link: "https://joblekart.com/",
+    projectTitle: "Joblek Art Website",
+    description: "A Simple Website to advertise the artworks of a freelance artist. ",
   },
 ];

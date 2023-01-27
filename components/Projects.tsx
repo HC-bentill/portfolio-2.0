@@ -7,9 +7,10 @@ function Projects({}: Props) {
   return (
     <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 1.5}} className="relative flex items-center h-screen max-w-full px-10 mx-auto overflow-hidden text-left md:flex-row justify-evenly z-0">
       <h3 className="absolute top-20 md:top-12 uppercase tracking-[20px] text-gray-500 text-1xl md:text-2xl">Projects</h3>
-      <small className="absolute top-[110px] md:top-[120px] text-gray-400">
+      {/* <small className="absolute top-[110px] md:top-[120px] text-gray-400">
         {"<<"} slide to reveal other projects {">>"}
-      </small>
+      </small> */}
+      <p className="absolute text-center text-[9px] top-[109px] md:top-[100px] md:text-[12px] text-gray-400">NB: These projects are accessible to the public. Most of my projects are in private repositories and accessed via a VPN(Virtual Private Network) </p>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00f2ea]/80">
         {ProjectsList &&
@@ -19,12 +20,18 @@ function Projects({}: Props) {
               <div className="space-y-5 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-sm font-semibold text-center md:text-xl ">
                   <span className="underline decoration-[#00f2ea]/50">
-                    Case Study {index + 1} of {ProjectsList.length}:
-                  </span>{" "}
-                  <a href={data?.link}>{data?.projectTitle}</a>
+                    Case Study {index + 1} of {ProjectsList.length}:{" "}
+                  </span>
+                  {data?.projectTitle}
                 </h4>
+                <div className="text-center">
+                  Click to visit 👉🏼{" "}
+                  <a target="_blank" href={data?.link}>
+                    {data?.link}
+                  </a>
+                </div>
 
-                <p className="text-xs md:text-sm text-center md:text-left">{data?.description}</p>
+                <p className="text-xs md:text-sm text-center">{data?.description}</p>
               </div>
             </div>
           ))}

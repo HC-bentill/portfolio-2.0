@@ -45,12 +45,12 @@ function ContactMe({}: Props) {
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#00f2ea] h-6 w-6 animate-pulse" />
-            <p className="text-s md:text-2xl">henrybentil@88gmail.com</p>
+            <p className="text-s md:text-2xl">henrybentil88@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#00f2ea] h-6 w-6 animate-pulse" />
-            <p className="text-s md:text-2xl">Josepace Lane Weija</p>
+            <p className="text-s md:text-2xl">Josepac Lane Weija</p>
           </div>
 
           <div>
