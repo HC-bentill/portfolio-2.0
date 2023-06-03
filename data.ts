@@ -89,6 +89,12 @@ export const ProjectsList: IProjects[] = [
     description: "The Ghana Driver and Road Safety Awards is a commitment to reducing road accidents through training and rewards. The purpose of the app was to quiz drivers on road safety rules and regulations. The best performing driver will be crowned the Overall Best Driver for the year. The winner will get up to Ghc50,000 financial support for his/her road safety project ",
   },
   {
+    image: Images.Denoyles.src,
+    link: "https://denoyles-development.vercel.app/",
+    projectTitle: "Denoyles",
+    description: "The ultimate destination for discovering and exploring an extensive range of high-quality skincare products!",
+  },
+  {
     image: Images.Discord.src,
     link: "https://discord-clone-f87c9.web.app/",
     projectTitle: "Chat Room App",
@@ -111,11 +117,5 @@ export const ProjectsList: IProjects[] = [
     link: "https://esimrequest.mtn.com.gh/",
     projectTitle: "Esim Request Portal MTN GH",
     description: "The purpose of this platform is to allow users to request for Electronic sim cards for Iphones. This Platform was built using React, UIKit, ASP.NET, Postgres and Monogodb. 40,000 requests were placed by users in the first hour of its deployment to production",
-  },
-  {
-    image: Images.Joblek.src,
-    link: "https://joblekart.com/",
-    projectTitle: "Joblek Art Website",
-    description: "A Simple Website to advertise the artworks of a freelance artist. ",
   },
 ];
