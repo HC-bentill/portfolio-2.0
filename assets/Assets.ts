@@ -27,6 +27,7 @@ import Deksol_platform from "./images/deksol_platform.png";
 import Eportal from "./images/e-portal.png";
 import Joblek from "./images/Joblek_Art.png";
 import Denoyles from "./images/Denoyles.png";
+import BH from "./images/BH.png";
 
 export const Images = {
   Acs,
@@ -57,6 +58,7 @@ export const Images = {
   Eportal,
   Joblek,
   Denoyles,
+  BH
 };
 
 export const skillsList = [Postgres, React, Redux, Ts, Csharp, Css, Dotnet, Codeigniter, Git, Html, JsLogo, Mongologo, Mysql, Php];

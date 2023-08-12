@@ -20,12 +20,12 @@ function Projects({}: Props) {
               <div className="space-y-5 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-sm font-semibold text-center md:text-xl ">
                   <span className="underline decoration-[#00f2ea]/50">
-                    Case Study {index + 1} of {ProjectsList.length}:{" "}
+                    Case Study {index + 1} of {ProjectsList.length}:
                   </span>
                   {data?.projectTitle}
                 </h4>
                 <div className="text-center">
-                  Click to visit 👉🏼{" "}
+                  Click to visit 👉🏼
                   <a target="_blank" rel="noreferrer" href={data?.link}>
                     {data?.link}
                   </a>
