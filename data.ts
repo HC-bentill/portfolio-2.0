@@ -96,7 +96,7 @@ export const ProjectsList: IProjects[] = [
   },
   {
     image: Images.Discord.src,
-    link: "https://discord-clone-f87c9.web.app/",
+    link: "https://hc-bentill.github.io/discord-clone/",
     projectTitle: "Chat Room App",
     description: "A chat app built with React and Firebase, with the ability to create channels and sign in with google Auth Services.",
   },
