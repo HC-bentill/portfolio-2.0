@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
               alt="click to go to the top"
-              src="https://drive.google.com/uc?export=view&id=1VA_N80uj7PzH6KNREzH4ouq77fXLTrxW"
+              src="/_me.png"
             />
           </div>
         </footer>

@@ -23,7 +23,7 @@ export default function Hero({}: Props) {
       <img
         data-aos="zoom-in"
         className="relative object-cover w-32 h-32 mx-auto rounded-full"
-        src="https://drive.google.com/uc?export=view&id=1VA_N80uj7PzH6KNREzH4ouq77fXLTrxW"
+        src="/_me.png"
         alt="my profile img"
       />
       <div className="z-20">

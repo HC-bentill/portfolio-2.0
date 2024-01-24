@@ -23,7 +23,7 @@ export default function About({}: Props) {
         viewport={{
           once: true,
         }}
-        src="https://drive.google.com/uc?export=view&id=1VA_N80uj7PzH6KNREzH4ouq77fXLTrxW"
+        src="/_me.png"
         className="flex-shrink-0 object-cover w-32 h-32 -mb-24 rounded-full md:mb-0 md:rounded-lg md:w-40 md:h-40 xl:w-[400px] xl:h-[450px]"
       />
 
