@@ -29,56 +29,56 @@ export const workExperienceList: IWorkExperience[] = [
     },
     IscurrentPlace: true,
   },
-  {
-    image: Images.Drifan.src,
-    position: "FrontEnd Engineer",
-    workplace: "Drifan",
-    period: {
-      started: "April 2022",
-      ended: "August 2022",
-    },
-    IscurrentPlace: false,
-  },
+  // {
+  //   image: Images.Drifan.src,
+  //   position: "FrontEnd Engineer",
+  //   workplace: "Drifan",
+  //   period: {
+  //     started: "April 2022",
+  //     ended: "August 2022",
+  //   },
+  //   IscurrentPlace: false,
+  // },
   {
     image: Images.Deksol.src,
     position: "Lead Software Engineer",
     workplace: "Deksol Consult",
     period: {
-      started: "June 2021",
-      ended: "July 2022",
+      started: "Feb 2019",
+      ended: "March 2022",
     },
     IscurrentPlace: false,
   },
-  {
-    image: Images.MastersLogo.src,
-    position: "Software Engineer",
-    workplace: "Masters Groupe",
-    period: {
-      started: "June 2021",
-      ended: "July 2022",
-    },
-    IscurrentPlace: false,
-  },
-  {
-    image: Images.Meetenant.src,
-    position: "FrontEnd Engineer",
-    workplace: "Meetenant",
-    period: {
-      started: "Jan 2020",
-      ended: "August 2020",
-    },
-    IscurrentPlace: false,
-  },
-  {
-    image: Images.Hng.src,
-    position: "FrontEnd Engineer (Internship)",
-    workplace: "HNG",
-    period: {
-      started: "Jan 2019",
-      ended: "Dec 2019",
-    },
-    IscurrentPlace: false,
-  },
+  // {
+  //   image: Images.MastersLogo.src,
+  //   position: "Software Engineer",
+  //   workplace: "Masters Groupe",
+  //   period: {
+  //     started: "June 2021",
+  //     ended: "July 2022",
+  //   },
+  //   IscurrentPlace: false,
+  // },
+  // {
+  //   image: Images.Meetenant.src,
+  //   position: "FrontEnd Engineer",
+  //   workplace: "Meetenant",
+  //   period: {
+  //     started: "Jan 2020",
+  //     ended: "August 2020",
+  //   },
+  //   IscurrentPlace: false,
+  // },
+  // {
+  //   image: Images.Hng.src,
+  //   position: "FrontEnd Engineer (Internship)",
+  //   workplace: "HNG",
+  //   period: {
+  //     started: "Jan 2019",
+  //     ended: "Dec 2019",
+  //   },
+  //   IscurrentPlace: false,
+  // },
 ];
 
 export const ProjectsList: IProjects[] = [
@@ -90,21 +90,9 @@ export const ProjectsList: IProjects[] = [
   // },
   {
     image: Images.Denoyles.src,
-    link: "https://denoyles-development.vercel.app/",
+    link: "http://denoyles.com/",
     projectTitle: "Denoyles",
     description: "The ultimate destination for discovering and exploring an extensive range of high-quality skincare products!",
-  },
-  {
-    image: Images.Discord.src,
-    link: "https://hc-bentill.github.io/discord-clone/",
-    projectTitle: "Chat Room App",
-    description: "A chat app built with React and Firebase, with the ability to create channels and sign in with google Auth Services.",
-  },
-  {
-    image: Images.Netflix.src,
-    link: "https://hc-bentill.github.io/netflix-clone/",
-    projectTitle: "Netflix Clone",
-    description: "Netflix Clone built with React, Firebase,and the Movie database API which displays latest movies from a database and groups them according to categories",
   },
   // {
   //   image: Images.Deksol_platform.src,
@@ -123,5 +111,17 @@ export const ProjectsList: IProjects[] = [
     link: "https://business.mtn.com.gh/",
     projectTitle: "Business Hub MTN GH",
     description: "Dive into a world where cutting-edge technology meets irresistible shopping. From sleek smartphones to mind-bending gadgets, we've curated a galaxy of innovation for all you tech enthusiasts out there.",
+  },
+  {
+    image: Images.Discord.src,
+    link: "https://hc-bentill.github.io/discord-clone/",
+    projectTitle: "Chat Room App",
+    description: "A chat app built with React and Firebase, with the ability to create channels and sign in with google Auth Services.",
+  },
+  {
+    image: Images.Netflix.src,
+    link: "https://hc-bentill.github.io/netflix-clone/",
+    projectTitle: "Netflix Clone",
+    description: "Netflix Clone built with React, Firebase,and the Movie database API which displays latest movies from a database and groups them according to categories",
   },
 ];

@@ -32,8 +32,8 @@ export default function About({}: Props) {
           Here is a <span className="underline decoration-[#00f2ea]/50">little</span> background
         </h4>
         <p className="text-sm text-left">
-          I am a software engineer with 6 years of experience developing solutions for startups and large corporations. My areas of expertise include testing, performance optimization, client satisfaction and teamwork, I am experienced with both server-side and client-side development and several technologies like Node.js, PHP, C# ASP.NET, React.js, React-Native, Databases like MySQL, PostgreSQL, MongoDB, CMS like WordPress, Strapi, Sanity and version control systems like Git, Bitbucket. I am
-          passionate about delivering high-quality software solutions that meet the needs of my clients.
+          I am a software engineer with over 5 years of experience developing solutions for startups and large corporations. My areas of expertise include testing, performance optimization, client satisfaction and teamwork, I am experienced with both server-side and client-side development and several technologies like Node.js, C# ASP.NET, React.js, React-Native, Databases like MySQL, PostgreSQL, MongoDB, CMS like WordPress, Strapi, Sanity and version control systems like Git, Bitbucket. I am
+          passionate about delivering high-quality software solutions.
         </p>
       </div>
     </div>
