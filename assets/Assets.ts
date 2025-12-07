@@ -28,6 +28,9 @@ import Eportal from "./images/e-portal.png";
 import Joblek from "./images/Joblek_Art.png";
 import Denoyles from "./images/Denoyles.png";
 import BH from "./images/BH.png";
+import Kaza from "./images/Kaza.png";
+import FleetD from "./images/FleetD.png";
+import FleetApi from "./images/fleetApi.png";
 
 export const Images = {
   Acs,
@@ -58,7 +61,10 @@ export const Images = {
   Eportal,
   Joblek,
   Denoyles,
-  BH
+  BH,
+  Kaza,
+  FleetD,
+  FleetApi
 };
 
 export const skillsList = [Postgres, React, Redux, Ts, Csharp, Css, Dotnet, Codeigniter, Git, Html, JsLogo, Mongologo, Mysql, Php];
