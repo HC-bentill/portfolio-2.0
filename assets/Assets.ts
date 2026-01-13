@@ -31,6 +31,8 @@ import BH from "./images/BH.png";
 import Kaza from "./images/Kaza.png";
 import FleetD from "./images/FleetD.png";
 import FleetApi from "./images/fleetApi.png";
+import AngelsGarage from "./images/angelsGarage.png";
+import AngeelsGarageDashboard from "./images/angelsGarageAdmin.png";
 
 export const Images = {
   Acs,
@@ -64,7 +66,9 @@ export const Images = {
   BH,
   Kaza,
   FleetD,
-  FleetApi
+  FleetApi,
+  AngelsGarage,
+  AngeelsGarageDashboard
 };
 
 export const skillsList = [Postgres, React, Redux, Ts, Csharp, Css, Dotnet, Codeigniter, Git, Html, JsLogo, Mongologo, Mysql, Php];

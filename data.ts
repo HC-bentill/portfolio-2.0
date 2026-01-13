@@ -131,6 +131,18 @@ export const ProjectsList: IProjects[] = [
 		description: "Kaza is a RESTful API (work in progress) built with Java Spring Boot that serves as the backend for a real estate application. It provides endpoints for managing properties, users, and transactions, enabling seamless integration with frontend applications.",
 	},
 	{
+		image: Images.AngelsGarage.src,
+		link: "https://angels-garage-gh-ltd.lovable.app",
+		projectTitle: "Angels Garage - Work in Progress",
+		description: "A garage management system built with React and Firebase for a client, allowing users to manage their vehicles and track maintenance schedules.",
+	},
+	{
+		image: Images.AngeelsGarageDashboard.src,
+		link: "Privately Hosted",
+		projectTitle: "Angels Garage Admin Dashboard -Work in Progress",
+		description: "An admin dashboard for the Angels Garage system, built with React and Firebase, providing tools for managing garage operations.",
+	},
+	{
 		image: Images.Discord.src,
 		link: "https://hc-bentill.github.io/discord-clone/",
 		projectTitle: "Chat Room App",
