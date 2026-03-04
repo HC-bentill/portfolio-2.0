@@ -132,9 +132,9 @@ export const ProjectsList: IProjects[] = [
 	},
 	{
 		image: Images.AngelsGarage.src,
-		link: "https://angels-garage-gh-ltd.lovable.app",
+		link: "https://angels-garage-ghana.vercel.app",
 		projectTitle: "Angels Garage - Work in Progress",
-		description: "A garage management system built with React and Firebase for a client, allowing users to manage their vehicles and track maintenance schedules.",
+		description: "A garage management system built with React, EF, Postgres and .NET 8 for a client, allowing users to manage their vehicles and track maintenance schedules.",
 	},
 	{
 		image: Images.AngeelsGarageDashboard.src,
