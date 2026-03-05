@@ -92,7 +92,7 @@ export const ProjectsList: IProjects[] = [
 		image: Images.Denoyles.src,
 		link: "http://denoyles.com/",
 		projectTitle: "Denoyles",
-		description: "The ultimate destination for discovering and exploring an extensive range of high-quality skincare products!",
+		description: "An e-commerce platform built with React, Hono.js, MongoDB and PostgresSql. Features include product listings, shopping cart functionality, and secure checkout.",
 	},
 	// {
 	//   image: Images.Deksol_platform.src,
@@ -143,10 +143,16 @@ export const ProjectsList: IProjects[] = [
 		description: "An admin dashboard for the Angels Garage system, built with React and Firebase, providing tools for managing garage operations.",
 	},
 	{
-		image: Images.Discord.src,
-		link: "https://hc-bentill.github.io/discord-clone/",
-		projectTitle: "Chat Room App",
-		description: "A chat app built with React and Firebase, with the ability to create channels and sign in with google Auth Services.",
+		image: Images.Saas.src,
+		link: "https://statements.mtn.com.gh/",
+		projectTitle: "MTN - Statement as a service",
+		description: "A statement request platform offering a suite of tools and services for businesses to streamline their operations and enhance productivity.",
+	},
+	{
+		image: Images.BellesCuts.src,
+		link: "https://bellescuts.vercel.app/",
+		projectTitle: "Belles Cuts - Work in Progress",
+		description: "A clothing e-commerce platform built with React, Next.js, and Superbase, offering a seamless shopping experience for fashion enthusiasts.",
 	},
 	{
 		image: Images.Netflix.src,
