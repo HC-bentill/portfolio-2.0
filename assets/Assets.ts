@@ -35,6 +35,7 @@ import AngelsGarage from "./images/angelsGarage.png";
 import AngeelsGarageDashboard from "./images/angelsGarageAdmin.png";
 import BellesCuts from "./images/belles_cuts.png";
 import Saas from "./images/saas.png";
+import payflow from "./images/payflow.png";
 
 export const Images = {
   Acs,
@@ -73,6 +74,7 @@ export const Images = {
   AngeelsGarageDashboard,
   BellesCuts,
   Saas,
+  payflow
 };
 
 export const skillsList = [Postgres, React, Redux, Ts, Csharp, Css, Dotnet, Codeigniter, Git, Html, JsLogo, Mongologo, Mysql, Php];

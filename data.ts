@@ -82,6 +82,12 @@ export const workExperienceList: IWorkExperience[] = [
 ];
 
 export const ProjectsList: IProjects[] = [
+	{
+		image: Images.payflow.src,
+		link: "https://github.com/HC-bentill/payflow",
+		projectTitle: "Payflow Payment Api - Work in Progress",
+		description: "PayFlow is a production-grade, multi-tenant payment processing API with ASP.NET Core 10, PostgreSQL, Redis, and Kafka.",
+	},
 	// {
 	//   image: Images.Gdrsa.src,
 	//   link: "https://www.ghanadriverawards.org/",
@@ -133,13 +139,13 @@ export const ProjectsList: IProjects[] = [
 	{
 		image: Images.AngelsGarage.src,
 		link: "https://angelsgarageghana.com",
-		projectTitle: "Angels Garage - Work in Progress",
+		projectTitle: "Angels Garage Web App",
 		description: "A garage management system built with React, EF, Postgres and .NET 8 for a client, allowing users to manage their vehicles and track maintenance schedules.",
 	},
 	{
 		image: Images.AngeelsGarageDashboard.src,
 		link: "Privately Hosted",
-		projectTitle: "Angels Garage Admin Dashboard -Work in Progress",
+		projectTitle: "Angels Garage Admin Dashboard",
 		description: "An admin dashboard for the Angels Garage system, built with React and Firebase, providing tools for managing garage operations.",
 	},
 	{
